@@ -1,0 +1,37 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Color Scheme - Sleeplessmind",
+		"Color Schemes by carlcalderon",
+		"ColorSchemeSelector",
+		"EJS",
+		"Emmet",
+		"Handlebars",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery Snippets pack",
+		"LESS",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"Pug",
+		"Seti_UI",
+		"SJSON",
+		"Swift",
+		"Syntax Highlighting for Sass",
+		"Theme - Flatland",
+		"Theme - Nexus",
+		"Theme - Phoenix",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
+		"Unity Completions",
+		"Vue Syntax Highlight",
+		"WordPress"
+	]
+}

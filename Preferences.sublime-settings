@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"disable_formatted_linebreak": true,
+	"ignored_packages":
+	[
+		"Unity Completions",
+		"Vintage",
+		"WordPress"
+	],
+	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

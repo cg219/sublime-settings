@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+@font-face{
+	font-family: "${1:font-name}";
+	src: url("${2:file-path}.eot");
+	src: url("${2:file-path}.eot?#iefix") format("embedded-opentype"),
+		 url("${2:file-path}.woff") format("woff"),
+		 url("${2:file-path}.ttf") format("truetype"),
+		 url("${2:file-path}.svg#${1:font-name}") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fontface</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

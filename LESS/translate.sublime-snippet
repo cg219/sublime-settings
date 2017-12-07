@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-translate: ${1:properties};
+   -moz-translate: ${1:properties};
+	-ms-translate: ${1:properties};
+	 -o-translate: ${1:properties};
+		translate: ${1:properties};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>translate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
