@@ -1,3 +1,11 @@
 .DS_Store
 oscrypto-ca-bundle.crt
+Package Control.ca-certs/
+Package Control.cache/
+Package Control.system-ca-bundle
+Package Control.ca-bundle
+Package Control.ca-list
+Package Control.last-run
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
 
