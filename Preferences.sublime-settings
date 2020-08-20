@@ -5,9 +5,7 @@
 	"font_size": 10,
 	"ignored_packages":
 	[
-		"Unity Completions",
-		"Vintage",
-		"WordPress"
+		"Vintage"
 	],
 	"tab_size": 4,
 	"theme": "Seti.sublime-theme",

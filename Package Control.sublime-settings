@@ -21,7 +21,6 @@
 		"LESS",
 		"Nettuts+ Fetch",
 		"Package Control",
-		"Prefixr",
 		"Pug",
 		"Riot Tag",
 		"Sass",
@@ -34,8 +33,6 @@
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"TypeScript Syntax",
-		"Unity Completions",
-		"Vue Syntax Highlight",
-		"WordPress"
+		"Vue Syntax Highlight"
 	]
 }
