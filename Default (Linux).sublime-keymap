@@ -1,2 +1,18 @@
 [
+    { "keys": ["super+n"], "command": "new_file" },
+    { "keys": ["super+s"], "command": "save" },
+    { "keys": ["super+a"], "command": "select_all" },
+    { "keys": ["super+c"], "command": "copy" },
+    { "keys": ["super+x"], "command": "cut" },
+    { "keys": ["super+v"], "command": "paste" },
+    { "keys": ["super+z"], "command": "undo" },
+    { "keys": ["super+shift+z"], "command": "redo" },
+    { "keys": ["super+n"], "command": "new_file" },
+    { "keys": ["super+o"], "command": "prompt_open_file" },
+    { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+    { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["super+d"], "command": "find_under_expand" },
+    { "keys": ["super+w"], "command": "close" },
+    { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 ]
