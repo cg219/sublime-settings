@@ -43,5 +43,17 @@
       "key": "is_abbreviation"
     }
   ]
-}
+},
+{
+      "keys": ["alt+`"], "command": "terminus_open", "args": {
+          "cwd": "${file_path:${folder}}"
+      }
+  },
+  {
+    "keys": ["super+w"],
+    "command": "terminus_close",
+    "context": [{
+      "key": "terminus_view"
+    }]
+  }
 ]
