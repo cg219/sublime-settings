@@ -15,4 +15,6 @@
     { "keys": ["super+w"], "command": "close" },
     { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["alt+`"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
+    { "keys": ["super+w"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] }
 ]
