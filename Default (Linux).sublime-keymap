@@ -1,6 +1,7 @@
 [
     { "keys": ["super+n"], "command": "new_file" },
     { "keys": ["super+s"], "command": "save" },
+    { "keys": ["super+shift+s"], "command": "prompt_save_as" },
     { "keys": ["super+a"], "command": "select_all" },
     { "keys": ["super+c"], "command": "copy" },
     { "keys": ["super+x"], "command": "cut" },
@@ -15,6 +16,8 @@
     { "keys": ["super+w"], "command": "close" },
     { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-    { "keys": ["alt+`"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
-    { "keys": ["super+w"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] }
+    { "keys": ["super+space"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
+    { "keys": ["super+w"], "command": "terminus_close", "context": [{ "key": "terminus_view" }] },
+    { "keys": ["super+/"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["super+shift+/"], "command": "toggle_comment", "args": { "block": true } },
 ]
