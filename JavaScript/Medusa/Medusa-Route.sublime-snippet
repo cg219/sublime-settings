@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+require('medusa/core');
+
+const admin = require('firebase-admin');
+const { validateToken } = require('medusa/modules/dream/user/utils');
+const { check, query, body } = require('express-validator');
+const firestore = admin.firestore();
+const auth = admin.auth();
+
+Class(function ${1:EndpointName}(){
+    const _this = this;
+
+    _this.validate = {
+        ${2:get}: []
+    }
+
+    _this.${2:get} = async (req, res) => {
+        try {
+            let data = {};
+
+            $0
+
+            res.apiResponse({ data });
+        } catch (err) {
+            res.apiError(err, err.message, err.status);
+        }
+    }
+
+    return Register(this, Router);
+})
+
+module.exports = ${1:EndpointName};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>medusa-route</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.javascript</scope> -->
+</snippet>
