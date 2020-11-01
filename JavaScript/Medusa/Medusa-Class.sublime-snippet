@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+Class(function ${1:ClassName}(){
+    Inherit(this, ${2:Model});
+    const _this = this;
+
+    //*** Constructor
+    (async function () {
+        await Hydra.ready();
+
+        _this.dataReady = true;
+    })();
+
+}, '${3:static}')
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>medusa-class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.javascript</scope> -->
+</snippet>
