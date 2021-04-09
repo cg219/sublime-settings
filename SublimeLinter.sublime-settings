@@ -2,8 +2,11 @@
 {
     "lint_mode": "save",
     "linters": {
-        "jshint": {
-            "args": ["--config", "~/dotfiles/.jshintrc"]
+        // "jshint": {
+        //     "args": ["--config", "~/dotfiles/.jshintrc"]
+        // },
+        "eslint": {
+
         }
     }
 }
