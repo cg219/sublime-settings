@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Class(function ${1:ClassName}(){
+Class(function ${1:ClassName}() {
     Inherit(this, ${2:Model});
     const _this = this;
 
@@ -10,8 +10,7 @@ Class(function ${1:ClassName}(){
 
         _this.dataReady = true;
     })();
-
-}, '${3:static}')
+}, '${3:static}');
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
