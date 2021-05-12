@@ -1,4 +1,5 @@
 {
+    "auto_show_diagnostics_panel": "never",
 	"clients":
 	{
 		"gopls":
