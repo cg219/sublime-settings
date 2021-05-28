@@ -7,7 +7,6 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
-		"Babel",
 		"Color Scheme - Sleeplessmind",
 		"Color Schemes by carlcalderon",
 		"ColorSchemeSelector",
@@ -39,6 +38,6 @@
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"TypeScript Syntax",
-		"Vue Syntax Highlight"
-	]
+		"Vue Syntax Highlight",
+	],
 }

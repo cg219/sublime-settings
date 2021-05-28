@@ -7,11 +7,11 @@
 		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
 		"raphael": "https://raw.github.com/DmitryBaranovskiy/raphael/master/raphael-min.js",
 		"shiv": "https://raw.github.com/aFarkas/html5shiv/master/dist/html5shiv.js",
-		"tweenmax": "http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
+		"tweenmax": "http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js",
 	},
 	"packages":
 	{
 		"bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
-		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
-	}
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
+	},
 }
