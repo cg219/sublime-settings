@@ -9,104 +9,64 @@
 	[
 		{
 			"cmd":
-			[
-				"bash",
-				"-i",
-				"-l"
-			],
+			["bash", "-i", "-l"],
 			"enable": true,
 			"env":
-			{
-			},
+		{
+		},
 			"name": "Bash",
 			"platforms":
-			[
-				"linux",
-				"osx"
-			]
+			["linux", "osx"]
 		},
 		{
 			"cmd":
-			[
-				"zsh",
-				"-i",
-				"-l"
-			],
+			["zsh", "-i", "-l"],
 			"enable": false,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "Zsh",
 			"platforms":
-			[
-				"linux",
-				"osx"
-			]
+			["linux", "osx"]
 		},
 		{
 			"cmd": "cmd.exe",
-			"enable": true,
-			"env":
-			{
-			},
+			"enable": false,
+			"env": {},
 			"name": "Command Prompt",
 			"platforms":
-			[
-				"windows"
-			]
+			["windows"]
 		},
 		{
 			"cmd": "pwsh.exe",
-			"enable": true,
-			"env":
-			{
-			},
+			"enable": false,
+			"env": {},
 			"name": "PowerShell Core",
 			"platforms":
-			[
-				"windows"
-			]
+			["windows"]
 		},
 		{
 			"cmd": "powershell.exe",
-			"enable": true,
-			"env":
-			{
-			},
+			"enable": false,
+			"env": {},
 			"name": "PowerShell",
 			"platforms":
-			[
-				"windows"
-			]
+			["windows"]
 		},
 		{
 			"cmd":
-			[
-				"cmd.exe",
-				"/k",
-				"%CMDER_ROOT%\\vendor\\init.bat"
-			],
+			["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
 			"enable": false,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "Cmder",
 			"platforms":
-			[
-				"windows"
-			]
+			["windows"]
 		},
 		{
 			"cmd": "wsl.exe",
-			"enable": true,
-			"env":
-			{
-			},
+			"enable": false,
+			"env": {},
 			"name": "WSL Login Shell",
 			"platforms":
-			[
-				"windows"
-			]
+			["windows"]
 		}
 	],
 	"theme": "solarized-dark-higher-contrast",
