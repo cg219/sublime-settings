@@ -8,68 +8,57 @@
 	"shell_configs":
 	[
 		{
-			"cmd":
-			["bash", "-i", "-l"],
-			"enable": true,
-			"env":
-		{
-		},
-			"name": "Bash",
-			"platforms":
-			["linux", "osx"]
-		},
-		{
-			"cmd":
-			["zsh", "-i", "-l"],
-			"enable": false,
-			"env": {},
-			"name": "Zsh",
-			"platforms":
-			["linux", "osx"]
-		},
-		{
-			"cmd": "cmd.exe",
-			"enable": false,
-			"env": {},
-			"name": "Command Prompt",
-			"platforms":
-			["windows"]
-		},
-		{
-			"cmd": "pwsh.exe",
-			"enable": false,
-			"env": {},
-			"name": "PowerShell Core",
-			"platforms":
-			["windows"]
-		},
-		{
-			"cmd": "powershell.exe",
-			"enable": false,
-			"env": {},
-			"name": "PowerShell",
-			"platforms":
-			["windows"]
-		},
-		{
-			"cmd":
-			["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
-			"enable": false,
-			"env": {},
-			"name": "Cmder",
-			"platforms":
-			["windows"]
-		},
-		{
-			"cmd": "wsl.exe",
-			"enable": false,
-			"env": {},
-			"name": "WSL Login Shell",
-			"platforms":
-			["windows"]
-		}
+            "name": "Bash",
+            "cmd": ["bash", "-i", "-l"],
+            "env": {},
+            "enable": true,
+            "platforms": ["linux", "osx"]
+        },
+        {
+            "name": "Zsh",
+            "cmd": ["zsh", "-i", "-l"],
+            "env": {},
+            "enable": false,
+            "platforms": ["linux", "osx"]
+        },
+        {
+            "name": "Command Prompt",
+            "cmd": "cmd.exe",
+            "env": {},
+            "enable": false,
+            "platforms": ["windows"]
+        },
+        {
+            "name": "PowerShell Core",
+            "cmd": "pwsh.exe",
+            "env": {},
+            "enable": false,
+            "platforms": ["windows"]
+        },
+        {
+            "name": "PowerShell",
+            "cmd": "powershell.exe",
+            "env": {},
+            "enable": false,
+            "platforms": ["windows"]
+        },
+        {
+            "name": "Cmder",
+            "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
+            "env": {},
+            "enable": false,
+            "platforms": ["windows"]
+        },
+        {
+            "name": "WSL Login Shell",
+            "cmd": "wsl.exe",
+            "env": {},
+            "enable": false,
+            "platforms": ["windows"]
+        }
 	],
 	"theme": "solarized-dark-higher-contrast",
 	"256color": true,
-	"unix_term": "xterm-256color"
+	"unix_term": "xterm-256color",
+	"brighten_bold_text": true
 }
