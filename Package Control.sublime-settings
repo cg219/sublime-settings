@@ -6,7 +6,9 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
+		"Astro",
 		"Color Scheme - Sleeplessmind",
 		"Color Schemes by carlcalderon",
 		"ColorSchemeSelector",
@@ -32,6 +34,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-eslint",
+		"Svelte",
 		"Swift",
 		"Terminus",
 		"Theme - Flatland",
