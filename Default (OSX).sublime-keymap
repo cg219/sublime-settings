@@ -62,5 +62,9 @@
   "context": [{
     "key": "terminus_view"
   }]
+},
+{
+  "keys": ["super+shift+alt+n"],
+  "command": "advanced_new_file_new"
 }
 ]
