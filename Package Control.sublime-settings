@@ -13,6 +13,7 @@
 		"Color Schemes by carlcalderon",
 		"ColorSchemeSelector",
 		"Debugger",
+		"Dockerfile Syntax Highlighting",
 		"Dracula Color Scheme",
 		"EJS",
 		"Emmet",
@@ -40,5 +41,6 @@
 		"Theme - Phoenix",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
+		"Vue Syntax Highlight",
 	],
 }
